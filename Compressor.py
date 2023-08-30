@@ -30,7 +30,7 @@ class ContactCenter(View):
 
 
 
-app.add_url_rule('/Home/', view_func=HomeCenter.as_view('root'))
+app.add_url_rule('/', view_func=HomeCenter.as_view('root'))
 app.add_url_rule('/Services/', view_func=ServicesCenter.as_view('Services'))
 app.add_url_rule('/Contact/', view_func=ContactCenter.as_view('Contact'))
 
