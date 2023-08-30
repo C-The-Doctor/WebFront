@@ -50,16 +50,16 @@
         <h1> Clyde Javis Ahoya </h1>
       </a>
 
-      <nav id="navbar" class="navbar">
+    <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="{{url_for('root')}}">Home</a></li>
+     
          
-        
-          </li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="{{url_for('Services')}}" >Services</a></li>
+          <li><a href="{{url_for('Contact')}}" class="active">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
+
 
       <div class="header-social-links">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
